@@ -1,0 +1,30 @@
+body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+p.truncar-3l {
+    display: -webkit-box;
+    /*-webkit-line-clamp: 2;*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width:469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+.button:hover {
+    background-color: #0d6efd;
+}
